@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "defaultProvider": "filesystem",
+  "libraries": [
+    {
+      "library": "wwwroot/vendor/bootstrap/",
+      "destination": "wwwroot/vendor/bootstrap",
+      "files": [
+        "bootstrap.min.css",
+        "bootstrap.min.css.map",
+        "bootstrap.min.js",
+        "bootstrap.min.js.map"
+      ]
+    }
+  ]
+}
