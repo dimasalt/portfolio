@@ -1,14 +1,19 @@
-﻿
+﻿@* @rendermode @(new InteractiveServerRenderMode(prerender: false)) *@
+@* @rendermode InteractiveServer *@
+
+
 <div class="vg-page page-home" id="home" style="background-image: url(img/bg_image_1.jpg)">
+
     <!-- Navbar -->
-    <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
-        <div class="container">
-            <a href="" class="navbar-brand">DimFolio</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar" aria-expanded="true">
-                <span class="ti-menu"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-center" id="main-navbar">
-                <ul class="navbar-nav ml-auto">
+    <nav class="navbar navbar-expand-lg navbar-dark" data-offset="500">
+        <div class="container-fluid my-2">
+            <a href="" class="navbar-brand">DimaS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>                    
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
                     <li class="nav-item active">
                         <a href="#home" class="nav-link" data-animate="scrolling">Home</a>
                     </li>
@@ -24,15 +29,11 @@
                     <li class="nav-item">
                         <a href="#contact" class="nav-link" data-animate="scrolling">Contact</a>
                     </li>
-                </ul>
-                @*   <ul class="nav ml-auto">
-                <li class="nav-item">
-                <button class="btn btn-fab btn-theme no-shadow">En</button>
-                </li>
-                </ul> *@
+                </ul>              
             </div>
         </div>
-    </div> <!-- End Navbar -->
+    </nav> 
+    <!-- End Navbar -->
     <!-- Caption header -->
     <div class="caption-header text-center wow zoomInDown">
         <h5 class="fw-normal">Welcome</h5>
@@ -41,5 +42,14 @@
     </div> <!-- End Caption header -->
     @*  <div class="floating-button"><span class="ti-mouse"></span></div> *@
 </div>
+
+
+
+
+@code {
+
+
+
+}
 
 

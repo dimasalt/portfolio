@@ -8,8 +8,8 @@
       "files": [
         "bootstrap.min.css",
         "bootstrap.min.css.map",
-        "bootstrap.min.js",
-        "bootstrap.min.js.map"
+        "bootstrap.bundle.min.js",
+        "bootstrap.bundle.min.js.map"
       ]
     }
   ]
