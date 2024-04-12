@@ -11,6 +11,10 @@
         "bootstrap.bundle.min.js",
         "bootstrap.bundle.min.js.map"
       ]
+    },
+    {
+      "library": "wwwroot/vendor/wow/",
+      "destination": "wwwroot/vendor/wow/wow/"
     }
   ]
 }

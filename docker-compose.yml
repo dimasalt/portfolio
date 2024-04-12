@@ -1,0 +1,16 @@
+﻿version: '3.8'
+
+services:
+  feed_calculator:    
+    container_name: portfolio_net
+    environment:
+      NODE_ENV: production
+    build: 
+      context: .
+      dockerfile: ./Dockerfile         
+    ports:
+      - 8080:8080
+      - 8081:8081   
+    restart: always
+    networks:
+      - calculatornetwork
