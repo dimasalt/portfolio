@@ -1,5 +1,29 @@
 ﻿@page "/"
+@using Portfolio.Components.Home
+@using Portfolio.Components.Layout
+@* @inject IConfiguration _config *@
 
 <PageTitle>Home</PageTitle>
 
-<About />
+<NavMenu />
+
+<Skills />
+
+<Test />
+
+
+
+@code {
+    
+    //string? jsonPath = string.Empty;
+
+    protected override void OnInitialized()
+    {
+
+        //get path to the json files
+        // jsonPath = _config.GetValue<string>("JsonFilePath");
+        // jsonPath = Directory.GetCurrentDirectory() + "\\" + jsonPath;
+
+    }
+
+}

@@ -1,10 +1,15 @@
 using Portfolio.Components;
+using Portfolio.Data_Access;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+//class to read the json file
+builder.Services.AddScoped<IReadJson, ReadJson>();
+
 
 var app = builder.Build();
 

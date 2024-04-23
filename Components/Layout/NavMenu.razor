@@ -1,4 +1,6 @@
-﻿@* @rendermode @(new InteractiveServerRenderMode(prerender: false)) *@
+﻿@inject IReadJson _readJson;
+
+@* @rendermode @(new InteractiveServerRenderMode(prerender: false)) *@
 @* @rendermode InteractiveServer *@
 
 
@@ -36,19 +38,45 @@
     <!-- End Navbar -->
     <!-- Caption header -->
     <div class="caption-header text-center wow zoomInDown">
-        <h5 class="fw-normal">Welcome</h5>
-        <h1 class="fw-light mb-4">I'm <b class="fg-theme">Dmitri</b> Saltanovich</h1>
-        <div class="badge">Software Engineer</div>
-    </div> <!-- End Caption header -->
-    @*  <div class="floating-button"><span class="ti-mouse"></span></div> *@
+        <h5 class="fw-normal">@welcomeMessage.WelcomeMessage</h5>
+        <h1 class="fw-light mb-4">I'm <b class="fg-theme">@welcomeMessage.FirtName</b> @welcomeMessage.LastName</h1>
+        <div class="badge">@welcomeMessage.Title</div>
+    </div> <!-- End Caption header -->   
+
 </div>
 
 
 
 
 @code {
+    // [Parameter]
+    // public string jsonPath { get; set; } = string.Empty;
+
+    // private WelcomeDto welcomeMessage = new();
+
+    // protected override void OnInitialized()
+    // {
+    //     welcomeMessage = _readJson.ReadJsonFile<WelcomeDto>(welcomeMessage, "welcome.json");
+
+    //     //welcomeMessage = ReadJsonData();
+    //     // ReadJson readJson = new ReadJson();
+    //     // welcomeMessage = readJson.ReadJsonFile<WelcomeDto>(welcomeMessage, jsonPath + "\\welcome.json");
+    // }
 
 
+    // private WelcomeDto ReadJsonData()
+    // {        
+    //     WelcomeDto welcomeMessage = new();
+
+    //     using (StreamReader reader = new StreamReader(jsonPath + "\\welcome.json"))
+    //     {
+    //         var json = reader.ReadToEnd();
+    //         var result = JsonConvert.DeserializeObject<WelcomeDto>(json);
+
+    //         //sending data or an empty object
+    //         return result ?? new WelcomeDto();
+    //     }              
+    // }
 
 }
 
