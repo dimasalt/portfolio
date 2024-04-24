@@ -6,7 +6,8 @@ public class ReadJson : IReadJson
 { 
     private readonly IConfiguration _config;
 
-    public ReadJson(IConfiguration config){
+    public ReadJson(IConfiguration config)
+    {
         _config = config;
     }
 

@@ -1,0 +1,36 @@
+{
+  "education": [
+    {
+      "year": "2009",
+      "place_name": "Humber College Institute of Technology & Advanced Learning",
+      "title": "Advanced Web Development for e-Business Certificate",
+      "description": ""
+    },
+    {
+      "year": "2002",
+      "place_name": "Beer-Sheva Technological College",
+      "title": "Software Engineering",
+      "description": ""
+    }
+  ],
+  "experience": [
+    {
+      "year": "2020 - Current",
+      "place_name": "PI – Path Interactive",
+      "title": "Software Developer",
+      "description": ""
+    },
+    {
+      "year": "2019-2020",
+      "place_name": "Remote",
+      "title": "Freelance Developer",
+      "description": ""
+    },
+    {
+      "year": "2010-2019",
+      "place_name": "OHTN – Ontario HIV Treatment Network",
+      "title": "Web Developer",
+      "description": ""
+    }
+  ]
+}

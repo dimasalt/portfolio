@@ -1,0 +1,38 @@
+{
+  "coding_skills": [
+    {
+      "skill": ".NET",
+      "level": 100
+    },
+    {
+      "skill": "Javascript/Typescript",
+      "level": 100
+    },
+    {
+      "skill": "React/Next.js/Express.js",
+      "level": 100
+    },
+    {
+      "skill": "PHP",
+      "level": 80
+    }
+  ],
+  "design_skills": [
+    {
+      "skill": "MVC.NET/Blazor",
+      "level": 100
+    },
+    {
+      "skill": "HTML + CSS",
+      "level": 100
+    },
+    {
+      "skill": "Bootstrap",
+      "level": 100
+    },
+    {
+      "skill": "TailwindCSS",
+      "level": 97
+    }
+  ]
+}

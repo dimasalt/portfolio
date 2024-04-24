@@ -1,13 +1,14 @@
 ﻿using Portfolio.DTO;
 
-namespace Portfolio.Components.Home;
-
-public partial class Skills
+namespace Portfolio.Components.Home
 {
-    private AboutDto aboutMessage = new();
-
-    protected override void OnInitialized()
+    public partial class Skills
     {
-        aboutMessage = _readJson.ReadJsonFile<AboutDto>(aboutMessage, "about.json");
+        private SkillsDto skillsMessage = new();
+
+        protected override void OnInitialized()
+        {
+            skillsMessage = _readJson.ReadJsonFile<SkillsDto>(skillsMessage, "skills.json");
+        }
     }
 }

@@ -4,7 +4,7 @@
   "description": "My name is Dmitri and I am Software Engineer with over 12 years of commercial professional experience. With main focus on .NET/MVC.NET/Blazor and React/Next.js",
   "listed_desc": [      
         "Over 12 years of experience in software industry primarly as an Application Developer",
-        "Expertise in C#, .NET, Javascript, ReactJS, Next.js, TypeScript, Microsoft SQL Server and MySQL, Docker",
+        "Expertise in C#, .NET, Javascript, ReactJS, Next.js, TypeScript, Microsoft SQL Server, MySQL and Docker",
         "Strong experience with .NET MVC, Blazor, Bootstrap and TailwindCSS, JQuery, AngularJS, VueJS, KnockoutJS",         
         "Done programming in Java and PHP in the past",     
         "Strong debugging skills",         
@@ -12,13 +12,4 @@
     ],       
     "resume_link" : "resume/Dmitri Saltanovich Developer Resume.pdf",
     "cover_letter_link" : "resume/Dmitri Saltanovich Cover Letter.pdf"
-  
-  //"short_desc1": "Over 12 years of experience in software industry primarly as an Application Developer",
-  //"short_desc2": "Expertise in C#, .NET, Javascript, ReactJS, Next.js, TypeScript, Microsoft SQL Server and MySQL, Docker",
-  //"short_desc3": "Strong experience with .NET MVC, Blazor, Bootstrap and TailwindCSS, JQuery, AngularJS, VueJS, KnockoutJS",
-  //"short_desc4": "Done programming in Java and PHP in the past.",
-  //"short_desc5": "Strong debugging skills",
-  //"short_desc6": "Great communication skills and ability to work in teams on large scale projects.",
-  //"resume_link": "resume/Dmitri Saltanovich Developer Resume.pdf",
-  //"cover_letter_link": "resume/Dmitri Saltanovich Cover Letter.pdf"
 }

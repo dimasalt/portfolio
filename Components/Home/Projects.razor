@@ -1,0 +1,49 @@
+﻿@inject IReadJson _readJson;
+@rendermode InteractiveServer
+
+
+<div class="vg-page page-portfolio pt-0 pb-0" id="portfolio">
+    <div class="container">
+        <div class="text-center wow fadeInUp">
+            <div class="badge badge-subhead">Portfolio</div>
+        </div>
+        <h1 class="text-center fw-normal wow fadeInUp">Some of my work</h1>
+        @* <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
+            <button class="btn btn-theme-outline selected" data-filter="*">All</button>
+            <button class="btn btn-theme-outline" data-filter=".apps">Apps</button>
+            <button class="btn btn-theme-outline" data-filter=".template">Template</button>
+            <button class="btn btn-theme-outline" data-filter=".ios">IOS</button>
+            <button class="btn btn-theme-outline" data-filter=".ui-ux">UI/UX</button>
+            <button class="btn btn-theme-outline" data-filter=".graphic">Graphic</button>
+            <button class="btn btn-theme-outline" data-filter=".wireframes">Wireframes</button>
+        </div> *@
+
+        <div class="gridder my-3">
+
+            @{
+                int i = 0;
+                foreach(var item in projectsMessage.CreatedProjects)
+                {
+                    if(i <= 6)
+                    {
+                        <div class="grid-item apps wow zoomIn">
+                            <div class="img-place" data-src="@item.ProjectImage">
+                                <img src="@item.ProjectImage" alt="Image for project @item.ProjectName">
+                                <div class="img-caption">
+                                    <h5 class="fg-theme">@item.ProjectName</h5>
+                                    <p>@item.ProjectDescription</p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    else { break;  }
+                    i++;
+                }
+            }
+          
+        </div> <!-- End gridder -->      
+    </div>
+</div> <!-- End Portfolio page -->
+@code {
+
+}

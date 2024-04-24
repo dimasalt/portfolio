@@ -1,0 +1,25 @@
+{
+  "services": [
+    {
+      "service_name": "Web Design",
+      "description": "There are many variations of passages of Lorem Ipsum available",
+      "icon": "ti-paint-bucket"
+    },
+    {
+      "service_name": "SEO",
+      "description": "There are many variations of passages of Lorem Ipsum available",
+      "icon": "ti-search"
+    },
+    {
+      "service_name": "UI/UX Design",
+      "description": "There are many variations of passages of Lorem Ipsum available",
+      "icon": "ti-vector"
+    },
+    {
+      "service_name": "Web Development",
+      "description": "There are many variations of passages of Lorem Ipsum available",
+      "icon": "ti-desktop"
+    }
+  ]
+
+}

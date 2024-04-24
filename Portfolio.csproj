@@ -33,7 +33,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Components\Home\Test.razor" />
     <None Include="Data\welcome.json" />
   </ItemGroup>
 
