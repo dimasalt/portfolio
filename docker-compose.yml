@@ -1,5 +1,4 @@
 ﻿version: '3.8'
-
 services:
   feed_calculator:    
     container_name: portfolio_net
@@ -14,3 +13,7 @@ services:
     restart: always
     networks:
       - calculatornetwork
+    
+networks:
+    calculatornetwork:
+        driver: bridge

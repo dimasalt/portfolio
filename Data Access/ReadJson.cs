@@ -14,7 +14,7 @@ public class ReadJson : IReadJson
     public T ReadJsonFile<T>(T returnDtoObject, string jsonFileName)
     {
         string jsonFolder = _config.GetValue<string>("JsonFilePath") ?? string.Empty;
-        string jsonPath = Directory.GetCurrentDirectory() + "\\" + jsonFolder + "\\" + jsonFileName;
+        string jsonPath = Directory.GetCurrentDirectory() + "/" + jsonFolder + "/" + jsonFileName;
 
         using (StreamReader reader = new StreamReader(jsonPath))
         {

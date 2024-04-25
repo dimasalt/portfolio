@@ -8,7 +8,7 @@ namespace Portfolio.Components.Layout
 
         protected override void OnInitialized()
         {
-            welcomeMessage = _readJson.ReadJsonFile<WelcomeDto>(welcomeMessage, "welcome.json");          
+            welcomeMessage = _readJson.ReadJsonFile<WelcomeDto>(welcomeMessage, "intro.json");          
         }
     }
 }
