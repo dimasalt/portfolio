@@ -1,25 +1,25 @@
 {
   "services": [
     {
-      "service_name": "Web Design",
-      "description": "There are many variations of passages of Lorem Ipsum available",
+      "service_name": "Full-Stack Application Development",
+      "description": "I value simple content structure, clean design patterns, and thoughtful interactions. My main development stack is .NET and React/Next.js",
       "icon": "ti-paint-bucket"
     },
     {
-      "service_name": "SEO",
-      "description": "There are many variations of passages of Lorem Ipsum available",
+      "service_name": "Database",
+      "description": "Developmen, optimizations and maintanance for Relational Databases, such as SQL Server, PostgreSQL and MySQL/MariaDb",
       "icon": "ti-search"
     },
     {
-      "service_name": "UI/UX Design",
-      "description": "There are many variations of passages of Lorem Ipsum available",
+      "service_name": "Application Deployment",
+      "description": "Deployment of applications to your cloud services. Azure, AWS, DigitalOcean and others...We can deploy it either directly or with Docker",
       "icon": "ti-vector"
-    },
-    {
-      "service_name": "Web Development",
-      "description": "There are many variations of passages of Lorem Ipsum available",
-      "icon": "ti-desktop"
     }
+    //{
+    //  "service_name": "Web Development",
+    //  "description": "There are many variations of passages of Lorem Ipsum available",
+    //  "icon": "ti-desktop"
+    //}
   ]
 
 }

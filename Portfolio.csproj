@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <Content Remove="Components\Layout\About.razor" />
-    <Content Remove="Data\Welcome.json" />
+    <Content Remove="Data\intro.json" />
   </ItemGroup>
 
   <ItemGroup>
@@ -33,7 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Data\welcome.json" />
+    <None Include="Data\intro.json" />
   </ItemGroup>
 
 </Project>

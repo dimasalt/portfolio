@@ -2,7 +2,7 @@
 
 namespace Portfolio.Data_Access;
 
-public class ReadJson : IReadJson 
+public class ReadJson : IReadJson
 { 
     private readonly IConfiguration _config;
 
