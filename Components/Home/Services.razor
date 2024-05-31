@@ -1,41 +1,37 @@
 ﻿@inject IReadJson _readJson;
-@rendermode InteractiveServer
+@* @rendermode InteractiveServer *@
 
-<div class="vg-page page-about pt-3 pb-0" id="skills">
-    <div class="vg-page page-service">
-        <div class="container">
-            <div class="text-center wow fadeInUp">
-                <div class="badge badge-subhead">Service</div>
-            </div>
-            <h1 class="fw-normal text-center wow fadeInUp">What I can do for you</h1>
-            <div class="row mt-5">
 
-                @{
-                    //need to take only 4 first item 
-                    int index = 0;
-                    foreach(var item in servicesMessage.ProvidedServices)
-                    {
-                        if(index <= 3)
-                        {
-                            <div class="col-md-6 col-lg-4 col-xl-4">
-                                <div class="card card-service wow fadeInUp">
-                                    <div class="icon">
-                                        <span class="@item.Icon"></span>
-                                    </div>
-                                    <div class="caption">
-                                        <h4 class="fg-theme">@item.ServiceName</h4>
-                                        <p>@item.Description</p>
-                                    </div>
-                                </div>
-                            </div>
-                        }
-                        index++;
-                    }
-                }         
-            </div>
-        </div>
-    </div>
+<div class="text-center wow fadeInUp">
+    <div class="badge badge-subhead">Service</div>
 </div>
+<h1 class="fw-normal text-center wow fadeInUp">What I can do for you</h1>
+<div class="row mt-5">
+
+    @{
+        //need to take only 4 first item 
+        int index = 0;
+        foreach(var item in servicesMessage.ProvidedServices)
+        {
+            if(index <= 3)
+            {
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="card card-service wow fadeInUp">
+                        <div class="icon">
+                            <span class="@item.Icon"></span>
+                        </div>
+                        <div class="caption">
+                            <h4 class="fg-theme">@item.ServiceName</h4>
+                            <p>@item.Description</p>
+                        </div>
+                    </div>
+                </div>
+            }
+            index++;
+        }
+    }         
+</div>
+
 
 @code {
 

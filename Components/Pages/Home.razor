@@ -3,21 +3,64 @@
 @using Portfolio.Components.Layout
 @* @inject IConfiguration _config *@
 
+@rendermode InteractiveServer
+
 <PageTitle>Home</PageTitle>
 
-<NavMenu />
+<!-- top navbar -->
+<div class="vg-page page-home" id="home" style="background-image: url(img/bg_image_1.jpg)">
+    <NavMenu />
+</div>
 
-<About />
+<!-- about me segment -->
+<div class="vg-page page-about pt-5 pb-0" id="about">
+    <div class="container py-5">
+        <div class="row">
+            <About />
+        </div>
+    </div>
+</div>
 
-<Skills />
+<!-- my software development skills -->
+<div class="vg-page page-about pt-2 pb-0" id="skills">
+    <div class="container py-5">
+        <Skills />
+    </div>
+</div>
 
-<History />
 
-<Services />
+<!-- work history segment -->
+<div class="vg-page page-about pt-3 pb-0" id="history"> 
+    <div class="container pt-5">
+        <div class="row">
+            <History />
+        </div>
+    </div>
+</div>
 
+<!-- services offered segment/component -->
+<div class="vg-page page-about pt-3 pb-0" id="skills">
+    <div class="vg-page page-service">
+        <div class="container">
+            <Services />
+        </div>
+    </div>
+</div>
+
+
+<!-- this one going to change the design then will change HTML markup -->
 <Projects />
 
-<Footer />
+
+<!-- footer -->
+<div class="vg-footer mt-3">
+    <h1 class="text-center mb-3">DimaS Portfolio</h1>
+    <div class="container">
+        <div class="row">
+            <Footer />
+        </div>
+    </div>
+</div>
 
 
 
@@ -36,9 +79,5 @@
 
 
     // <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
-
-    // protected override async Task OnInitializedAsync()
-    // {        
-    // }
 
 }

@@ -3,53 +3,47 @@
 @rendermode InteractiveServer
 
 @* @rendermode @(new InteractiveServerRenderMode(prerender: false)) *@
-@* @rendermode InteractiveServer *@
 
 
-<div class="vg-page page-home" id="home" style="background-image: url(img/bg_image_1.jpg)">
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark" data-offset="500">
-        <div class="container-fluid my-2">
-            <a href="" class="navbar-brand">DimaS</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>                    
-            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a href="#home" class="nav-link" data-animate="scrolling">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link" data-animate="scrolling">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#skills" class="nav-link" data-animate="scrolling">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#history" class="nav-link" data-animate="scrolling">History</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#service" class="nav-link" data-animate="scrolling">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#portfolio" class="nav-link" data-animate="scrolling">Projects</a>
-                    </li>
-                </ul>              
-            </div>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark" data-offset="500">
+    <div class="container-fluid my-2">
+        <a href="" class="navbar-brand">DimaS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>                    
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="#home" class="nav-link" data-animate="scrolling">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-animate="scrolling">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-animate="scrolling">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#history" class="nav-link" data-animate="scrolling">History</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#service" class="nav-link" data-animate="scrolling">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link" data-animate="scrolling">Projects</a>
+                </li>
+            </ul>              
         </div>
-    </nav> 
-    <!-- End Navbar -->
-    <!-- Caption header -->
-    <div class="caption-header text-center wow zoomInDown">
-        <h5 class="fw-normal">@welcomeMessage.WelcomeMessage</h5>
-        <h1 class="fw-light mb-4">I'm <b class="fg-theme">@welcomeMessage.FirtName</b> @welcomeMessage.LastName</h1>
-        <div class="badge">@welcomeMessage.Title</div>
-    </div> <!-- End Caption header -->   
-
-</div>
-
+    </div>
+</nav> 
+<!-- End Navbar -->
+<!-- Caption header -->
+<div class="caption-header text-center wow zoomInDown">
+    <h5 class="fw-normal">@welcomeMessage.WelcomeMessage</h5>
+    <h1 class="fw-light mb-4">I'm <b class="fg-theme">@welcomeMessage.FirtName</b> @welcomeMessage.LastName</h1>
+    <div class="badge">@welcomeMessage.Title</div>
+</div> <!-- End Caption header -->   
 
 
 

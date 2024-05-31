@@ -1,36 +1,32 @@
 ﻿@inject IReadJson _readJson;
 
+
 @* @rendermode @(new InteractiveServerRenderMode(prerender: false)) *@
 @* @rendermode InteractiveServer *@
 @* @attribute [StreamRendering(true)] *@
 @* @attribute [StreamRendering] *@
 
 
-<div class="vg-page page-about pt-5 pb-0" id="about">
-    <div class="container py-5">
-        <div class="row">
-            <div class="col-lg-4 py-3">
-                <div class="img-place wow fadeInUp">
-                    <img src="img/me.png" alt="">
-                </div>
-            </div>
-            <div class="col-lg-6 offset-lg-1 mb-3 wow fadeInRight">
-                <h1 class="fw-light pt-4 pt-md-0">@aboutMessage.FullName</h1>
-                <h5 class="fg-theme mb-3">@aboutMessage.Title</h5>
-                <p class="text-muted">
-                    @aboutMessage.Description
-                </p>
-                <ul class="theme-list">
-                    @foreach(string item in aboutMessage.ListedDescription){
-                        <li>@item</li>
-                    }                
-                </ul>
-                <a href="@aboutMessage.ResumeLink" class="btn btn-theme-outline" target="_blank">Download CV</a>
-                <a href="@aboutMessage.CoverLetterLink" class="btn btn-theme-outline" target="_blank">Download Cover Letter</a>             
-            </div>
-        </div>
+<div class="col-lg-4 py-3">
+    <div class="img-place wow fadeInUp">
+        <img src="img/me.png" alt="">
     </div>
 </div>
+<div class="col-lg-6 offset-lg-1 mb-3 wow fadeInRight">
+    <h1 class="fw-light pt-4 pt-md-0">@aboutMessage.FullName</h1>
+    <h5 class="fg-theme mb-3">@aboutMessage.Title</h5>
+    <p class="text-muted">
+        @aboutMessage.Description
+    </p>
+    <ul class="theme-list">
+        @foreach(string item in aboutMessage.ListedDescription){
+            <li>@item</li>
+        }                
+    </ul>
+    <a href="@aboutMessage.ResumeLink" class="btn btn-theme-outline" target="_blank">Download CV</a>
+    <a href="@aboutMessage.CoverLetterLink" class="btn btn-theme-outline" target="_blank">Download Cover Letter</a>             
+</div>
+
 
 @code {
 
