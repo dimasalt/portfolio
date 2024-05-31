@@ -14,17 +14,17 @@
       "project_name": "Gaming Dashboard",
       "project_desc": "Games, Streaming",
       "project_img": "img/work/work-3.jpg"
+    },
+    {
+      "project_name": "Drugs Delivery App",
+      "project_desc": "Health, Drugs",
+      "project_img": "img/work/work-4.jpg"
+    },
+    {
+      "project_name": "Musics Discover",
+      "project_desc": "Musics, Dashboard",
+      "project_img": "img/work/work-5.jpg"
     }
-    //{
-    //  "project_name": "Drugs Delivery App",
-    //  "project_desc": "Health, Drugs",
-    //  "project_img": "img/work/work-4.jpg"
-    //},
-    //{
-    //  "project_name": "Musics Discover",
-    //  "project_desc": "Musics, Dashboard",
-    //  "project_img": "img/work/work-5.jpg"
-    //},
     //{
     //  "project_name": "Game Streaming",
     //  "project_desc": "Games, Streaming",
