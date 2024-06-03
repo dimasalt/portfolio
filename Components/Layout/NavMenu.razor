@@ -2,8 +2,6 @@
 
 @rendermode InteractiveServer
 
-@* @rendermode @(new InteractiveServerRenderMode(prerender: false)) *@
-
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark" data-offset="500">
@@ -41,8 +39,8 @@
 <!-- Caption header -->
 <div class="caption-header text-center wow zoomInDown">
     <h5 class="fw-normal">@welcomeMessage.WelcomeMessage</h5>
-    <h1 class="fw-light mb-4">I'm <b class="fg-theme">@welcomeMessage.FirtName</b> @welcomeMessage.LastName</h1>
-    <div class="badge">@welcomeMessage.Title</div>
+    <h1 class="fw-light mb-4 animate__animated animate__backInRight">I'm <b class="fg-theme">@welcomeMessage.FirtName</b> @welcomeMessage.LastName</h1>
+    <div class="badge animate__animated animate__backInLeft">@welcomeMessage.Title</div>
 </div> <!-- End Caption header -->   
 
 
