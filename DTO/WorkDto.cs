@@ -22,6 +22,9 @@ namespace Portfolio.DTO
         public string ProjectDescription { get; set; } = string.Empty;
 
         [JsonProperty("project_img")]
-        public string ProjectImage { get; set; } = string.Empty;       
+        public string ProjectImage { get; set; } = string.Empty;
+
+        [JsonProperty("project_link")]
+        public string ProjectLink { get; set; } = string.Empty;
     }
 }

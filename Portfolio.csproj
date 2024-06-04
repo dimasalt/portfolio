@@ -34,7 +34,7 @@
   <ItemGroup>
     <None Include="Data\intro.json" />
     <None Include="wwwroot\img\projects\farmfeedcalculator\description.odt" />
-    <None Include="wwwroot\img\projects\SmallBusinessTaxSuite\Description.odt" />
+    <None Include="wwwroot\img\projects\farmnotebook\Description.odt" />
   </ItemGroup>
 
 </Project>
