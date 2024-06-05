@@ -1,4 +1,5 @@
 **/backup
+**/docker
 **/.classpath
 **/.dockerignore
 **/.env

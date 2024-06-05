@@ -1,5 +1,6 @@
 .vs
 backup
+docker
 wwwroot/resume
 [Dd]ebug/
 [Dd]ebugPublic/

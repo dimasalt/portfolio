@@ -1,9 +1,8 @@
-﻿version: '3.8'
-services:
-  feed_calculator:    
+﻿services:
+  portfolio_app:    
     container_name: portfolio_net
     environment:
-      NODE_ENV: production
+      - ASPNETCORE_ENVIRONMENT=Production
     build: 
       context: .
       dockerfile: ./Dockerfile         
@@ -12,8 +11,24 @@ services:
       - 8081:8081   
     restart: always
     networks:
-      - calculatornetwork
+      - webapp
+
+#   nginx:
+#     container_name: nginx_server
+#     image: nginx:1.27.0-alpine3.19-slim
+#     environment:
+#     # - NGINX_HOST=foobar.com
+#         - NGINX_PORT=80
+#     ports:
+#         - 80:80
+#         - 443:443
+#     volumes:
+#       - ./nginx/conf.d:/etc/nginx/conf.d
+#     restart: always
+#     networks: 
+#         - webapp
     
-networks:
-    calculatornetwork:
-        driver: bridge
+# networks:
+#     webapp:
+#         driver: bridge
+#         # external: true       
