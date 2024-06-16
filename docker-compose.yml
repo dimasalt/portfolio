@@ -28,7 +28,7 @@
 #     networks: 
 #         - webapp
     
-# networks:
-#     webapp:
-#         driver: bridge
-#         # external: true       
+networks:
+    webapp:
+        driver: bridge
+        external: true       
