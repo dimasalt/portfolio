@@ -3,31 +3,31 @@
     {
       "project_name": "OHTN Website",
       "project_desc": "Ontario Hiv Treatment Website",
-      "project_img": "img/projects/ohtn/ohtn_small.jpg",
+      "project_img": "img/projects/ohtn/ohtn_small.webp",
       "project_link":  "http://www.ohtn.on.ca"
     },
     {
       "project_name": "OCHART",
       "project_desc": "Research data and research visualization",
-      "project_img": "img/projects/ochart/ochart_small.jpg",
+      "project_img": "img/projects/ochart/ochart_small.webp",
       "project_link": "http://wwww.ochart.ca"
     },
     {
       "project_name": "ASO411",
       "project_desc": "HIV/AIDS treatments and services locator",
-      "project_img": "img/projects/aso411/aso411_small.jpg",
+      "project_img": "img/projects/aso411/aso411_small.webp",
       "project_link": "https://whereto.catie.ca/"
     },
     {
       "project_name": "Cattle Feed Calculator",
       "project_desc": "Feed calculator to raise and finish beef cattle",
-      "project_img": "img/projects/farmfeedcalculator/mainpage_small.jpg",
+      "project_img": "img/projects/farmfeedcalculator/mainpage_small.webp",
       "project_link": "http://farmfeedcalculator.com"
     },
     {
       "project_name": "Farm Notebook",
       "project_desc": "Small Farm money managing software",
-      "project_img": "img/projects/farmnotebook/tax_page_small.jpg",
+      "project_img": "img/projects/farmnotebook/tax_page_small.webp",
       "project_link": "https://github.com/dimasalt/farmnotebook"
     }    
   ]
