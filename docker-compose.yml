@@ -5,10 +5,16 @@
       - ASPNETCORE_ENVIRONMENT=Production
     build: 
       context: .
-      dockerfile: ./Dockerfile         
-    ports:
-      - 8080:8080
-      - 8081:8081   
+      dockerfile: ./Dockerfile  
+    expose:
+      - "8080"
+      - "8081"
+    # ports:
+    #   - 8080:8080
+    #   - 8081:8081
+    volumes:     
+      - /srv/docker/volumes/portfolio/Data:/app/Data 
+      - /srv/docker/volumes/porffolio/resume:/app/wwwroot/resume
     restart: always
     networks:
       - webapp
