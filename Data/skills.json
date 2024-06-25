@@ -1,7 +1,11 @@
 {
   "coding_skills": [
     {
-      "skill": ".NET",
+      "skill": ".NET/.NET API/.NET Minimal API",
+      "level": 100
+    },
+    {
+      "skill": "React/Next.js/Express.js/Node.js", 
       "level": 100
     },
     {
@@ -9,17 +13,13 @@
       "level": 100
     },
     {
-      "skill": "React/Next.js/Express.js",
+      "skill": "SQL Server/Postgres/MySQL",
       "level": 100
-    },
-    {
-      "skill": "PHP",
-      "level": 80
     }
   ],
   "design_skills": [
     {
-      "skill": "MVC.NET/Blazor",
+      "skill": "MVC.NET/Blazor/Razor",
       "level": 100
     },
     {
