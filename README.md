@@ -5,3 +5,5 @@ Currently hosted on VPS and runs in Docker container.
 
 ![alt text](https://github.com/dimasalt/portfolio/blob/main/wwwroot/img/dimfolio.jpg "Main page")
 
+![alt text](https://github.com/dimasalt/portfolio/blob/main/wwwroot/img/dimfolio_bio.jpg "Main page")
+
