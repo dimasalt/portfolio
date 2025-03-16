@@ -15,14 +15,20 @@
   ],
   "experience": [
     {
-      "year": "2020 - Current",
+      "year": "2024 - current",
+      "place_name": "Upwork",
+      "title": "Freelance Software Developer",
+      "description": ""
+    },
+    {
+      "year": "2020 - 2024",
       "place_name": "PI – Path Interactive",
       "title": "Software Developer",
       "description": ""
     },
     {
       "year": "2019-2020",
-      "place_name": "Remote",
+      "place_name": "Remote at OHTN – Ontario HIV Treatment Network",
       "title": "Freelance Developer",
       "description": ""
     },

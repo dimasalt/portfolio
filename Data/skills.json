@@ -9,17 +9,17 @@
       "level": 100
     },
     {
-      "skill": "Javascript/Typescript",
+      "skill": "JavaScript/Typescript",
       "level": 100
     },
     {
-      "skill": "SQL Server/Postgres/MySQL",
+      "skill": "SQL Server/Postgres/MySQL/MariaDB",
       "level": 100
     }
   ],
   "design_skills": [
     {
-      "skill": "MVC.NET/Blazor/Razor",
+      "skill": "MVC.NET/Blazor/Razor/Web Forms",
       "level": 100
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "skill": "TailwindCSS",
-      "level": 97
+      "level": 100
     }
   ]
 }
